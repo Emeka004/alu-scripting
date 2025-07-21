@@ -23,4 +23,4 @@ def top_ten(subreddit):
         return
 
     for child in data.get("children"):
-        print(child.get("data").get("title))
+        print(child.get("data").get("title"))
