@@ -18,7 +18,7 @@ def top_ten(subreddit):
         return
 
     data = response.json().get("data")
-    if data is None or len(data.get("children")) == 0:
+    if data is None or len(data.get("ch:ildren")) == 0:
         print(None)
         return
 
